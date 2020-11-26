@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Pdf from './Pdf';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   // <React.StrictMode>
-    <App />,
+    <Pdf />,
   // </React.StrictMode>,
   document.getElementById('root')
 );
